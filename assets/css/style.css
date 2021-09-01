@@ -730,6 +730,7 @@ background-color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 .contact-content-btn{
     display: flex;
@@ -780,6 +781,8 @@ background-color: white;
 }
 .contact-info .contact_content .contact_desc {
     font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
 
 
