@@ -495,13 +495,27 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
 .top-header{
     background-color: #283b6a;
+}
+.top-header-info-text{
+    font-size: 13px;
 }
 .nice-select{
     border-radius: 0;
     line-height: 34px;
     font-weight: 500;
+    padding-left: 0px;
+    padding-right: 25px;
 }
 .emergency-btn{
     color: #283b6a;
@@ -550,9 +564,12 @@ font-weight: 700;
 .mt-20{
     margin-top: 20px;
 }
+.mt-21{
+    margin-top: 21px;
+}
 .top-header-icons-style{
     color: #21cdc0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .top-header-social-links a {
@@ -689,8 +706,8 @@ background-color: white;
     background-color: transparent;
     border: 1px white solid;
     border-radius: 50px;
-    font-size: 14px;
-    padding: 15px;
+    font-size: 12px;
+    padding: 10px;
     transition: all 0.4s linear;
 
 }
@@ -778,7 +795,12 @@ background-color: white;
 .time_list_2 li {
     font-size: 14px;
     display: flex;
+}
+.time_list_3 li {
+    font-size: 14px;
+    display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -826,7 +848,7 @@ background-color: white;
     color:white;
     border: none;
     position: absolute;
-    right: 42px;
+    right: 12px;
     font-size: 14px;
     font-weight: 600;
     padding: 8px 17px 7px;
@@ -883,7 +905,7 @@ background-color: white;
     color: #21cdc0;
 }
 .intro-list-text{
-    font-size: 15px;
+    font-size: 12px;
     line-height: 27px;
     margin-bottom: 30px;
 }
@@ -900,4 +922,47 @@ background-color: white;
 .btn-intro-list:hover {
     color: #ffffff;
     background-color: #213360;
+}
+
+
+
+
+
+/* NEW CODE */
+.main-banner-img1{
+    background-image: url(../images/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+.main-banner-img2{
+    background-image: url(../images/slider-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+.main-banner-txt{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.main-textbox{
+    width: 60%;
+}
+.main-banner-txt h2{
+    color: #0e204d;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.main-banner-txt p{
+    color: #283b6a;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    line-height: 2;
 }
